@@ -6,7 +6,14 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxtjs/i18n'],
   nitro: {
-    preset: 'cloudflare_pages'
+    preset: 'cloudflare_module',
+    cloudflare: {
+      deployConfig: true,
+      nodeCompat: true,
+      wrangler: {
+        name: 'guerrero' // must match the Worker name in the Cloudflare dashboard
+      }
+    }
   },
   css: ['~/assets/css/main.css'],
   vite: {
