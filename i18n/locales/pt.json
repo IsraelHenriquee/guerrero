@@ -1,0 +1,158 @@
+{
+  "seo": {
+    "title": "Guerrero Global · Transporte de carros em todos os EUA, porta a porta",
+    "description": "Transporte seu carro para qualquer lugar dos Estados Unidos. Estimativa online na hora e cotação exata pelo WhatsApp. Transporte aberto e fechado para concessionárias, leilões, oficinas e clientes particulares."
+  },
+  "nav": {
+    "how": "Como funciona",
+    "routes": "Rotas",
+    "faq": "Dúvidas",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Transporte de veículos em todo o país",
+    "title1": "Leve seu carro",
+    "title2": "para qualquer",
+    "title3": "lugar dos EUA.",
+    "subtitle": "De Orlando a Miami ou da Califórnia a Nova York, encontramos uma transportadora confiável e levamos seu veículo porta a porta. Veja seu preço agora e confirme pelo WhatsApp.",
+    "perks": [
+      "Transportadoras licenciadas e com seguro",
+      "Aberto e fechado",
+      "Funcionando ou não",
+      "Todos os 50 estados"
+    ]
+  },
+  "serve": {
+    "label": "Transportamos veículos para",
+    "items": [
+      "Concessionárias",
+      "Leilões",
+      "Oficinas",
+      "Clientes particulares"
+    ]
+  },
+  "quote": {
+    "title": "Estimativa na hora",
+    "badge": "Grátis · 30 seg",
+    "from": "ZIP de coleta",
+    "to": "ZIP de entrega",
+    "vehicleType": "Tipo de veículo",
+    "vehicles": {
+      "sedan": "Sedã",
+      "suv": "SUV",
+      "pickup": "Picape",
+      "van": "Van",
+      "motorcycle": "Moto"
+    },
+    "trailer": "Carreta",
+    "open": "Aberta",
+    "enclosed": "Fechada",
+    "runs": "Funciona?",
+    "yes": "Sim",
+    "no": "Não",
+    "car": "Ano / marca / modelo",
+    "carPlaceholder": "2021 Toyota Camry",
+    "date": "Data disponível",
+    "submit": "Ver meu preço",
+    "loading": "Calculando…",
+    "disclaimer": "Preço médio desta rota. Confirmamos o valor exato pelo WhatsApp com base nos preços atuais do mercado.",
+    "whatsappCta": "Cotação exata pelo WhatsApp",
+    "errors": {
+      "invalid_zip": "Digite dois códigos ZIP válidos de 5 dígitos.",
+      "zip_not_found": "Não encontramos o código ZIP {zip}.",
+      "generic": "Algo deu errado. Tente novamente."
+    },
+    "wa": {
+      "intro": "Olá! Gostaria de uma cotação para transportar meu veículo.",
+      "from": "De",
+      "to": "Para",
+      "vehicle": "Veículo",
+      "trailer": "Carreta",
+      "runs": "Funciona",
+      "date": "Data disponível",
+      "estimate": "Estimativa online"
+    },
+    "priceLabel": "Preço médio"
+  },
+  "how": {
+    "label": "Como funciona",
+    "title": "Três paradas da cotação à entrega",
+    "mile": "Milha",
+    "steps": [
+      {
+        "title": "Receba sua estimativa",
+        "text": "Digite os códigos ZIP de coleta e entrega. Você vê uma faixa de preço em segundos, sem cadastro."
+      },
+      {
+        "title": "Confirme pelo WhatsApp",
+        "text": "Fale direto com o {name}. Fechamos o preço exato e a data de coleta."
+      },
+      {
+        "title": "Nós buscamos",
+        "text": "Uma transportadora licenciada e com seguro busca seu carro na sua porta e entrega no endereço que você escolher."
+      }
+    ]
+  },
+  "routes": {
+    "label": "Rotas populares",
+    "title": "Para onde você vai?",
+    "text": "Toque numa rota para preencher o formulário. Não achou a sua? Atendemos todos os estados.",
+    "cta": "Ver estimativa desta rota"
+  },
+  "trailers": {
+    "open": {
+      "label": "Mais popular",
+      "title": "Carreta aberta",
+      "text": "Os mesmos caminhões que as concessionárias usam. Mais barata e com mais disponibilidade, com coleta mais rápida. Ideal para carros, SUVs e picapes do dia a dia."
+    },
+    "enclosed": {
+      "label": "Premium",
+      "title": "Carreta fechada",
+      "text": "Proteção total contra chuva, poeira e detritos da estrada. Recomendada para carros clássicos, de luxo, exóticos e de coleção."
+    }
+  },
+  "faq": {
+    "title": "Dúvidas",
+    "items": [
+      {
+        "q": "Quanto custa transportar um carro?",
+        "a": "Depende da distância, do tamanho do veículo, do tipo de carreta e da época do ano. A maioria das viagens custa entre $0,50 e $1,00 por milha, e as rotas curtas ficam na faixa mais alta. Use o formulário para ver a sua rota."
+      },
+      {
+        "q": "Quanto tempo demora?",
+        "a": "A coleta costuma acontecer de 1 a 5 dias após a data disponível. Depois de coletado, rotas curtas levam de 1 a 3 dias e de costa a costa de 7 a 10 dias."
+      },
+      {
+        "q": "Carreta aberta ou fechada?",
+        "a": "A aberta é a opção mais comum e barata, e serve para a maioria dos carros. A fechada protege carros clássicos, de luxo e exóticos do clima e dos detritos, e custa cerca de 40% a mais."
+      },
+      {
+        "q": "Vocês transportam carro que não funciona?",
+        "a": "Sim. Contratamos transportadoras com guincho para veículos que não funcionam. É só avisar no formulário para planejarmos o caminhão certo."
+      },
+      {
+        "q": "Meu carro tem seguro durante o transporte?",
+        "a": "Sim. Todas as transportadoras com quem trabalhamos têm seguro de carga. Verificamos a licença e o seguro antes de designar seu veículo."
+      },
+      {
+        "q": "Preciso estar presente na coleta e na entrega?",
+        "a": "Você ou alguém de confiança (maior de 18) precisa entregar as chaves e assinar o laudo de vistoria na coleta e na entrega."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Vamos seguir em frente juntos",
+    "quote": "Ver estimativa",
+    "chat": "Falar agora"
+  },
+  "contact": {
+    "callOrText": "Ligação ou mensagem"
+  },
+  "footer": {
+    "broker": "Broker de transporte de veículos licenciado · Florida LLC"
+  },
+  "chatMessage": "Olá! Gostaria de uma cotação para transportar meu veículo.",
+  "mobileBar": {
+    "quote": "Ver preço"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "seo": {
+    "title": "Guerrero Global · Transporte de autos a todo EE. UU., puerta a puerta",
+    "description": "Envía tu auto a cualquier parte de Estados Unidos. Estimado al instante en línea y cotización exacta por WhatsApp. Transporte abierto y cerrado para concesionarios, subastas, talleres y clientes particulares."
+  },
+  "nav": {
+    "how": "Cómo funciona",
+    "routes": "Rutas",
+    "faq": "Preguntas",
+    "language": "Idioma"
+  },
+  "hero": {
+    "badge": "Transporte de vehículos a nivel nacional",
+    "title1": "Envía tu auto",
+    "title2": "a cualquier",
+    "title3": "parte de EE. UU.",
+    "subtitle": "De Orlando a Miami o de California a Nueva York, encontramos un transportista confiable y llevamos tu vehículo puerta a puerta. Mira tu precio ahora y confirma por WhatsApp.",
+    "perks": [
+      "Transportistas con licencia y seguro",
+      "Abierto y cerrado",
+      "Funcione o no",
+      "Los 50 estados"
+    ]
+  },
+  "serve": {
+    "label": "Movemos vehículos para",
+    "items": [
+      "Concesionarios",
+      "Subastas",
+      "Talleres",
+      "Clientes particulares"
+    ]
+  },
+  "quote": {
+    "title": "Estimado al instante",
+    "badge": "Gratis · 30 seg",
+    "from": "ZIP de recogida",
+    "to": "ZIP de entrega",
+    "vehicleType": "Tipo de vehículo",
+    "vehicles": {
+      "sedan": "Sedán",
+      "suv": "SUV",
+      "pickup": "Pickup",
+      "van": "Van",
+      "motorcycle": "Moto"
+    },
+    "trailer": "Tráiler",
+    "open": "Abierto",
+    "enclosed": "Cerrado",
+    "runs": "¿Funciona?",
+    "yes": "Sí",
+    "no": "No",
+    "car": "Año / marca / modelo",
+    "carPlaceholder": "2021 Toyota Camry",
+    "date": "Fecha disponible",
+    "submit": "Ver mi precio",
+    "loading": "Calculando…",
+    "disclaimer": "Precio promedio para esta ruta. Confirmamos tu precio exacto por WhatsApp según las tarifas actuales del mercado.",
+    "whatsappCta": "Cotización exacta por WhatsApp",
+    "errors": {
+      "invalid_zip": "Ingresa dos códigos ZIP válidos de 5 dígitos.",
+      "zip_not_found": "No encontramos el código ZIP {zip}.",
+      "generic": "Algo salió mal. Inténtalo de nuevo."
+    },
+    "wa": {
+      "intro": "¡Hola! Quiero una cotización para transportar mi vehículo.",
+      "from": "Desde",
+      "to": "Hasta",
+      "vehicle": "Vehículo",
+      "trailer": "Tráiler",
+      "runs": "Funciona",
+      "date": "Fecha disponible",
+      "estimate": "Estimado en línea"
+    },
+    "priceLabel": "Precio promedio"
+  },
+  "how": {
+    "label": "Cómo funciona",
+    "title": "Tres paradas de la cotización a la entrega",
+    "mile": "Milla",
+    "steps": [
+      {
+        "title": "Recibe tu estimado",
+        "text": "Ingresa los códigos ZIP de recogida y entrega. Ves un rango de precio en segundos, sin registrarte."
+      },
+      {
+        "title": "Confirma por WhatsApp",
+        "text": "Habla directamente con {name}. Fijamos tu precio exacto y la fecha de recogida."
+      },
+      {
+        "title": "Lo recogemos",
+        "text": "Un transportista con licencia y seguro recoge tu auto en tu puerta y lo entrega en la dirección que elijas."
+      }
+    ]
+  },
+  "routes": {
+    "label": "Rutas populares",
+    "title": "¿A dónde vas?",
+    "text": "Toca una ruta para llenar el formulario. ¿No ves la tuya? Enviamos desde y hacia todos los estados.",
+    "cta": "Ver estimado para esta ruta"
+  },
+  "trailers": {
+    "open": {
+      "label": "El más popular",
+      "title": "Tráiler abierto",
+      "text": "Los mismos camiones que usan los concesionarios. Económico y con mucha disponibilidad, con recogida más rápida. Ideal para autos, SUVs y pickups de uso diario."
+    },
+    "enclosed": {
+      "label": "Premium",
+      "title": "Tráiler cerrado",
+      "text": "Protección total contra clima, polvo y escombros del camino. Recomendado para autos clásicos, de lujo, exóticos y de colección."
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "items": [
+      {
+        "q": "¿Cuánto cuesta enviar un auto?",
+        "a": "Depende de la distancia, el tamaño del vehículo, el tipo de tráiler y la temporada. La mayoría de los viajes cuestan entre $0.50 y $1.00 por milla, y las rutas cortas están en el rango más alto. Usa el formulario para ver tu ruta."
+      },
+      {
+        "q": "¿Cuánto tarda?",
+        "a": "La recogida suele ser de 1 a 5 días después de la fecha disponible. Ya recogido, las rutas cortas tardan de 1 a 3 días y las de costa a costa de 7 a 10 días."
+      },
+      {
+        "q": "¿Tráiler abierto o cerrado?",
+        "a": "El abierto es la opción más común y económica, y sirve para la mayoría de los autos. El cerrado protege autos clásicos, de lujo y exóticos del clima y los escombros, y cuesta alrededor de 40% más."
+      },
+      {
+        "q": "¿Pueden enviar un auto que no funciona?",
+        "a": "Sí. Coordinamos transportistas con winche para vehículos que no funcionan. Solo indícalo en el formulario para planear el camión adecuado."
+      },
+      {
+        "q": "¿Mi auto está asegurado durante el transporte?",
+        "a": "Sí. Todos los transportistas con los que trabajamos tienen seguro de carga. Verificamos su licencia y seguro antes de asignar tu vehículo."
+      },
+      {
+        "q": "¿Tengo que estar presente en la recogida y la entrega?",
+        "a": "Tú o alguien de confianza (mayor de 18) debe entregar las llaves y firmar el reporte de inspección en la recogida y la entrega."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Avancemos juntos",
+    "quote": "Ver estimado",
+    "chat": "Escríbenos"
+  },
+  "contact": {
+    "callOrText": "Llamada o mensaje"
+  },
+  "footer": {
+    "broker": "Bróker de transporte de autos con licencia · Florida LLC"
+  },
+  "chatMessage": "¡Hola! Quiero una cotización para transportar mi vehículo.",
+  "mobileBar": {
+    "quote": "Ver precio"
+  }
+}

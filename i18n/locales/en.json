@@ -1,0 +1,158 @@
+{
+  "seo": {
+    "title": "Guerrero Global · Nationwide Car Shipping, Door to Door",
+    "description": "Ship your car anywhere in the USA. Instant online estimate and an exact quote on WhatsApp. Open and enclosed auto transport for dealers, auctions, body shops and private clients."
+  },
+  "nav": {
+    "how": "How it works",
+    "routes": "Routes",
+    "faq": "FAQ",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Nationwide vehicle transport",
+    "title1": "Ship your car",
+    "title2": "anywhere in",
+    "title3": "the USA.",
+    "subtitle": "Orlando to Miami or California to New York, we find a trusted carrier and get your vehicle there door to door. See your price now, then confirm on WhatsApp.",
+    "perks": [
+      "Licensed & insured carriers",
+      "Open & enclosed",
+      "Operable & inoperable",
+      "All 50 states"
+    ]
+  },
+  "serve": {
+    "label": "We move vehicles for",
+    "items": [
+      "Dealers",
+      "Auctions",
+      "Body shops",
+      "Private clients"
+    ]
+  },
+  "quote": {
+    "title": "Instant estimate",
+    "badge": "Free · 30 sec",
+    "from": "Pickup ZIP",
+    "to": "Delivery ZIP",
+    "vehicleType": "Vehicle type",
+    "vehicles": {
+      "sedan": "Sedan",
+      "suv": "SUV",
+      "pickup": "Pickup",
+      "van": "Van",
+      "motorcycle": "Motorcycle"
+    },
+    "trailer": "Trailer",
+    "open": "Open",
+    "enclosed": "Enclosed",
+    "runs": "Does it run?",
+    "yes": "Yes",
+    "no": "No",
+    "car": "Year / make / model",
+    "carPlaceholder": "2021 Toyota Camry",
+    "date": "Ready date",
+    "submit": "Get my price",
+    "loading": "Calculating…",
+    "disclaimer": "Average price for this route. We confirm your exact price on WhatsApp based on current market rates.",
+    "whatsappCta": "Get my exact quote on WhatsApp",
+    "errors": {
+      "invalid_zip": "Please enter two valid 5-digit ZIP codes.",
+      "zip_not_found": "We couldn't find ZIP code {zip}.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "wa": {
+      "intro": "Hi! I would like a quote to ship my vehicle.",
+      "from": "From",
+      "to": "To",
+      "vehicle": "Vehicle",
+      "trailer": "Trailer",
+      "runs": "Runs",
+      "date": "Ready date",
+      "estimate": "Online estimate"
+    },
+    "priceLabel": "Average price"
+  },
+  "how": {
+    "label": "How it works",
+    "title": "Three stops from quote to delivery",
+    "mile": "Mile",
+    "steps": [
+      {
+        "title": "Get your estimate",
+        "text": "Enter pickup and delivery ZIP codes. You see a price range in seconds, no sign-up."
+      },
+      {
+        "title": "Confirm on WhatsApp",
+        "text": "Talk directly with {name}. We lock in your exact price and pickup date."
+      },
+      {
+        "title": "We pick it up",
+        "text": "A licensed, insured carrier picks up your car at your door and delivers it to the address you choose."
+      }
+    ]
+  },
+  "routes": {
+    "label": "Popular routes",
+    "title": "Where are you headed?",
+    "text": "Tap a route to fill in the estimate form. Don't see yours? We ship to and from every state.",
+    "cta": "Get estimate for this route"
+  },
+  "trailers": {
+    "open": {
+      "label": "Most popular",
+      "title": "Open trailer",
+      "text": "The same trucks dealerships use. Affordable and widely available, with faster pickup. A good fit for everyday cars, SUVs and pickups."
+    },
+    "enclosed": {
+      "label": "Premium",
+      "title": "Enclosed trailer",
+      "text": "Full protection from weather, dust and road debris. Recommended for classic, luxury, exotic and collector vehicles."
+    }
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "How much does it cost to ship a car?",
+        "a": "It depends on distance, vehicle size, trailer type and season. Most trips cost between $0.50 and $1.00 per mile, with shorter routes on the higher end. Use the estimate form for your route."
+      },
+      {
+        "q": "How long does it take?",
+        "a": "Pickup is usually within 1 to 5 days of your ready date. Once picked up, short routes take 1 to 3 days and cross-country routes take 7 to 10 days."
+      },
+      {
+        "q": "Open or enclosed trailer?",
+        "a": "Open trailers are the most common and affordable option and work for most cars. Enclosed trailers protect classic, luxury and exotic cars from weather and road debris, and cost about 40% more."
+      },
+      {
+        "q": "Can you ship a car that doesn't run?",
+        "a": "Yes. We arrange carriers with a winch for inoperable vehicles. Just let us know in the form so we can plan the right truck."
+      },
+      {
+        "q": "Is my car insured during transport?",
+        "a": "Yes. Every carrier we work with carries cargo insurance. We verify their authority and insurance before assigning your vehicle."
+      },
+      {
+        "q": "Do I need to be there at pickup and delivery?",
+        "a": "You or someone you trust (18+) needs to hand over the keys and sign the inspection report at pickup and delivery."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let's move forward together",
+    "quote": "Get estimate",
+    "chat": "Chat now"
+  },
+  "contact": {
+    "callOrText": "Call or text"
+  },
+  "footer": {
+    "broker": "Licensed auto transport broker · Florida LLC"
+  },
+  "chatMessage": "Hi! I would like a quote to ship my vehicle.",
+  "mobileBar": {
+    "quote": "Get price"
+  }
+}

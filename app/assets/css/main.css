@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  /* Night asphalt + electric blue, matching the Guerrero Global business card */
+  --color-night: #060a10;
+  --color-night-2: #0b111a;
+  --color-night-3: #151d2a;
+  --color-volt: #1f8fff;
+  --color-volt-light: #5cb0ff;
+  --color-volt-deep: #0a6fde;
+  --color-steel: #c9d2dd;
+  --color-paper: #eef2f6;
+  --color-paper-2: #dfe6ee;
+  --color-ink: #0b1018;
+
+  --font-display: "Big Shoulders Display", Impact, sans-serif;
+  --font-sans: "Barlow", ui-sans-serif, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-night);
+  color: var(--color-paper);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Horizontal carousels without a visible scrollbar */
+.no-scrollbar { scrollbar-width: none; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+
+/* Asphalt grain */
+.grain {
+  position: relative;
+  isolation: isolate;
+}
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  opacity: 0.07;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+/* Silver chrome text, like the logo lettering */
+.chrome {
+  background: linear-gradient(180deg, #ffffff 0%, #dfe5ec 45%, #9aa6b4 55%, #eef2f6 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  /* Room for the italic overhang so the last letter isn't clipped */
+  padding-right: 0.12em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+}
+
+/* Moving dashed lane line */
+.lane-line {
+  background-image: linear-gradient(90deg, var(--color-volt) 0 56%, transparent 56% 100%);
+  background-size: 72px 100%;
+  animation: drive 1.6s linear infinite;
+}
+@keyframes drive {
+  to { background-position: -72px 0; }
+}
+
+/* Staggered entrance */
+.rise {
+  opacity: 0;
+  transform: translateY(18px);
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) forwards;
+}
+@keyframes rise {
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lane-line, .rise { animation: none; opacity: 1; transform: none; }
+}
