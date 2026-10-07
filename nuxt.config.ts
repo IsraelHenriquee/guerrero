@@ -20,6 +20,7 @@ export default defineNuxtConfig({
     plugins: [tailwindcss()]
   },
   i18n: {
+    baseUrl: 'https://ggautoship.com',
     defaultLocale: 'en',
     strategy: 'prefix_except_default',
     locales: [

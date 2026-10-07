@@ -1,5 +1,7 @@
-// Rough price model for the instant estimate.
-// Carlos's numbers: a cheap mile is about $0.50 and an expensive one about $1.00.
+// Price model for the instant estimate.
+// The main source is CarHauler247's market price (see carhauler.ts) plus MARKET_MARKUP.
+// When that API is unavailable we fall back to Carlos's rule of thumb:
+// a cheap mile is about $0.50 and an expensive one about $1.00.
 // Short trips pay the higher rate per mile; long cross-country trips pay the lower one.
 
 export type VehicleType = 'sedan' | 'suv' | 'pickup' | 'van' | 'motorcycle'
@@ -18,6 +20,9 @@ const VEHICLE_MULTIPLIER: Record<VehicleType, number> = {
   van: 1.25,
   motorcycle: 0.7
 }
+
+// Margin added on top of CarHauler247's price (0.10 = +10%). TODO: confirm with Carlos.
+const MARKET_MARKUP = 0
 
 const ENCLOSED_MULTIPLIER = 1.45
 const INOPERABLE_FEE = 150
@@ -47,8 +52,18 @@ export function estimatePrice(miles: number, vehicle: VehicleType, trailer: Trai
   price *= VEHICLE_MULTIPLIER[vehicle]
   if (trailer === 'enclosed') price *= ENCLOSED_MULTIPLIER
   if (!runs) price += INOPERABLE_FEE
-  price = Math.max(price, MINIMUM_PRICE)
+  return priceRange(price)
+}
 
+// CarHauler247's v1 API has no trailer option, so enclosed is applied here.
+export function priceFromMarket(marketPrice: number, trailer: TrailerType) {
+  let price = marketPrice * (1 + MARKET_MARKUP)
+  if (trailer === 'enclosed') price *= ENCLOSED_MULTIPLIER
+  return priceRange(price)
+}
+
+function priceRange(price: number) {
+  price = Math.max(price, MINIMUM_PRICE)
   const roundTo10 = (n: number) => Math.round(n / 10) * 10
   return { low: roundTo10(price * 0.92), high: roundTo10(price * 1.08) }
 }

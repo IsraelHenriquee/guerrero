@@ -1,4 +1,5 @@
-import { estimatePrice, haversineMiles, roadMiles, type TrailerType, type VehicleType } from '../utils/pricing'
+import { fetchMarketQuote } from '../utils/carhauler'
+import { estimatePrice, haversineMiles, priceFromMarket, roadMiles, type TrailerType, type VehicleType } from '../utils/pricing'
 
 interface ZippopotamResponse {
   places: { 'place name': string, 'state abbreviation': string, latitude: string, longitude: string }[]
@@ -32,6 +33,16 @@ export default defineEventHandler(async (event) => {
   const vehicle = VEHICLES.includes(body.vehicle as VehicleType) ? (body.vehicle as VehicleType) : 'sedan'
   const trailer: TrailerType = body.trailer === 'enclosed' ? 'enclosed' : 'open'
   const runs = body.runs !== false
+
+  const market = await fetchMarketQuote(from, to, vehicle, runs)
+  if (market) {
+    return {
+      origin: market.origin,
+      destination: market.destination,
+      miles: market.miles,
+      ...priceFromMarket(market.price, trailer)
+    }
+  }
 
   const [origin, destination] = await Promise.all([lookupZip(from), lookupZip(to)])
   const miles = roadMiles(haversineMiles(origin, destination))
